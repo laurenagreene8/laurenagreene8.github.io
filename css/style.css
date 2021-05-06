@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans+TC:wght@100&family=Tinos&display=swap');
+
+@media only screen and (min-width:350px){
+
+  h1{
+    font-family: 'Francois One', sans-serif;
+    color: #A5BF99;
+  }
+
+  h2{
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  p{
+    font-family: 'Tinos', serif;
+  }
+
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  a:visited{
+    color: #000000;
+  }
+
+  a:hover{
+    background-color:#A5BF99;
+    color: white;
+  }
+
+  a:link{
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a:active{
+    background-color:#A5BF99;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #myname{
+    padding-top:50px;
+    font-size:6em;
+    text-align: center;
+  }
+
+  #pagemenu{
+    font-size:1.25em;
+    text-align: center;
+  }
+
+  #pagemenu a{
+    margin-left:40px;
+    font-size:2em;
+  }
+
+  #frontgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left:200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    grid-gap:30px;
+    margin-bottom: 30px;
+
+  }
+
+  #frontgrid p{
+    font-size:1.25em;
+  }
+
+  .frontimages{
+    width: 400px;
+    height: 400px;
+  }
+
+  footer{
+    background-color: #A5BF99;
+    padding:1.25vw;
+  }
+
+  #photogrid{
+    margin-left:220px;
+    margin-top:30px;
+  }
+
+  .photosingrid{
+    margin:15px;
+  }
+
+  #designgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:70px;
+    grid-gap:50px;
+    margin-bottom:40px;
+  }
+
+}
+
+@media only screen and (min-width:1000px){
+
+  #myname{
+    padding-top: 30px;
+    font-size:2.25em;
+    text-align: center;
+  }
+
+  #cosatext{
+    padding-top: 140px;
+  }
+
+  #photogrid{
+    margin-left:130px;
+    margin-top:30px;
+  }
+
+  #pagemenu a{
+    font-size:1em;
+    margin-left:40px;
+  }
+
+  #designgrid{
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 250px;
+    grid-gap: 30px;
+  }
+
+  #frontgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 80px;
+    grid-gap:30px;
+    margin-bottom: 30px;
+  }
+
+}
